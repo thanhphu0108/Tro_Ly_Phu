@@ -6,6 +6,4 @@
 	ignorecase = true
 [remote "origin"]
 	url = https://github.com/thanhphu0108/Tro_Ly_Phu.git
-	tagOpt = --no-tags
-	fetch = +refs/*:refs/*
-	mirror = true
+	fetch = +refs/heads/*:refs/remotes/origin/*
